@@ -1,0 +1,564 @@
+.root-pane {
+    -fx-background-color: #1A1A2E;
+    -fx-padding: 0;
+    -fx-font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.pages-tree {
+    -fx-background-color: #161625;
+    -fx-border-color: #2A2A40;
+    -fx-border-width: 0 1 0 0;
+}
+
+.pages-tree .tree-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #F5F7FB;
+    -fx-padding: 10 14;
+}
+
+.pages-tree .tree-cell:selected {
+    -fx-background-color: #25304A;
+    -fx-background-radius: 8;
+}
+
+.blocks-scroll,
+.blocks-scroll > .viewport {
+    -fx-background-color: #1A1A2E;
+}
+
+.blocks-container {
+    -fx-padding: 0;
+    -fx-background-color: #1A1A2E;
+}
+
+.bottom-toolbar {
+    -fx-background-color: #161625;
+    -fx-border-color: #2A2A40;
+    -fx-border-width: 1 0 0 0;
+    -fx-padding: 10 14;
+}
+
+.button {
+    -fx-background-color: #25304A;
+    -fx-text-fill: #F5F7FB;
+    -fx-background-radius: 10;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #31405F;
+}
+
+.subtle-button {
+    -fx-background-color: #20273B;
+    -fx-text-fill: #D9E1F2;
+    -fx-min-width: 32;
+    -fx-min-height: 28;
+}
+
+.block-card {
+    -fx-background-color: #202035;
+    -fx-background-radius: 16;
+    -fx-border-color: #2F3550;
+    -fx-border-radius: 16;
+    -fx-padding: 16;
+}
+
+.block-meta {
+    -fx-text-fill: #9AA4BF;
+    -fx-font-size: 11px;
+}
+
+.block-editor {
+    -fx-background-color: #161625;
+    -fx-background-radius: 12;
+    -fx-border-color: #313754;
+    -fx-border-radius: 12;
+    -fx-padding: 12;
+    -fx-text-fill: #F5F7FB;
+    -fx-highlight-fill: #3C5A86;
+    -fx-highlight-text-fill: white;
+}
+
+.block-editor .content {
+    -fx-background-color: #161625;
+}
+
+.block-footer {
+    -fx-alignment: center-left;
+}
+
+.empty-state {
+    -fx-text-fill: #B6BED2;
+    -fx-font-size: 16px;
+    -fx-padding: 32;
+}
+.content-panel {
+    -fx-background-color: #1A1A2E;
+    -fx-padding: 24;
+}
+
+.page-title-field {
+    -fx-background-color: #1A1A2E;
+    -fx-text-fill: #F5F7FB;
+    -fx-prompt-text-fill: #69718A;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-border-color: transparent;
+    -fx-padding: 8 4 12 4;
+}
+
+.page-title-field:focused {
+    -fx-border-color: #313754;
+    -fx-border-width: 0 0 1 0;
+}
+
+.blocks-container {
+    -fx-padding: 0;
+}
+.danger-button {
+    -fx-background-color: #3A2430;
+    -fx-text-fill: #F0C7D1;
+}
+
+.danger-button:hover {
+    -fx-background-color: #5A2B3A;
+}
+.search-field {
+    -fx-background-color: #161625;
+    -fx-text-fill: #F5F7FB;
+    -fx-prompt-text-fill: #69718A;
+    -fx-background-radius: 12;
+    -fx-border-color: #2F3550;
+    -fx-border-radius: 12;
+    -fx-padding: 10 14;
+    -fx-font-size: 14px;
+}
+
+.search-field:focused {
+    -fx-border-color: #3C5A86;
+}
+.save-status-label {
+    -fx-text-fill: #9AA4BF;
+    -fx-font-size: 12px;
+    -fx-padding: 0 0 0 12;
+}
+
+.block-header {
+    -fx-alignment: center-left;
+}
+
+.drag-handle {
+    -fx-text-fill: #9AA4BF;
+    -fx-padding: 4 8;
+    -fx-background-color: #161625;
+    -fx-background-radius: 10;
+    -fx-cursor: open-hand;
+    -fx-font-size: 14px;
+}
+.map-pane {
+    -fx-background-color: #161625;
+    -fx-padding: 20;
+}
+
+.map-title-label {
+    -fx-text-fill: #F5F7FB;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.map-info-label {
+    -fx-text-fill: #9AA4BF;
+    -fx-font-size: 12px;
+    -fx-padding: 0 0 0 12;
+}
+
+.map-node-label {
+    -fx-text-fill: #F5F7FB;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.drag-handle:hover {
+    -fx-background-color: #25304A;
+    -fx-text-fill: #F5F7FB;
+}
+
+.block-card-drop-target {
+    -fx-border-color: #5B7FA6;
+    -fx-border-width: 2;
+    -fx-border-radius: 16;
+}
+
+.dialog-pane.nexus-dialog {
+    -fx-background-color: #161625;
+    -fx-border-color: #2F3550;
+    -fx-border-width: 1;
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-padding: 8;
+}
+
+.dialog-pane.nexus-dialog:header .header-panel {
+    -fx-background-color: transparent;
+}
+
+.dialog-pane.nexus-dialog .label {
+    -fx-text-fill: #F5F7FB;
+}
+
+.dialog-pane.nexus-dialog > *.content.label {
+    -fx-text-fill: #F5F7FB;
+    -fx-font-size: 14px;
+    -fx-padding: 16 12 16 12;
+}
+
+.dialog-pane.nexus-dialog .button-bar > .container {
+    -fx-background-color: transparent;
+    -fx-padding: 8 12 12 12;
+}
+
+.dialog-pane.nexus-dialog .button {
+    -fx-background-color: #25304A;
+    -fx-text-fill: #F5F7FB;
+    -fx-background-radius: 10;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+
+.dialog-pane.nexus-dialog .button:hover {
+    -fx-background-color: #31405F;
+}
+
+.dialog-pane.nexus-dialog.nexus-confirm-dialog .button:default {
+    -fx-background-color: #31405F;
+    -fx-text-fill: #F5F7FB;
+}
+
+.dialog-pane.nexus-dialog.nexus-error-dialog .button:default {
+    -fx-background-color: #5A2B3A;
+    -fx-text-fill: #F0C7D1;
+}
+
+.dialog-pane.nexus-dialog.nexus-info-dialog .button:default {
+    -fx-background-color: #2B3F5A;
+    -fx-text-fill: #E6EDF8;
+}
+.nexus-dialog-root {
+    -fx-background-color: transparent;
+}
+
+.nexus-dialog-card {
+    -fx-background-color: #161625;
+    -fx-background-radius: 18;
+    -fx-border-color: #2F3550;
+    -fx-border-radius: 18;
+    -fx-border-width: 1;
+    -fx-padding: 20;
+    -fx-min-width: 360;
+    -fx-max-width: 420;
+}
+
+.nexus-dialog-header {
+    -fx-alignment: center-left;
+}
+
+.nexus-dialog-title {
+    -fx-text-fill: #F5F7FB;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.nexus-dialog-message {
+    -fx-text-fill: #D9E1F2;
+    -fx-font-size: 14px;
+    -fx-line-spacing: 2px;
+    -fx-padding: 6 0 4 0;
+}
+
+.nexus-dialog-actions {
+    -fx-padding: 8 0 0 0;
+}
+
+.nexus-dialog-badge {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 10;
+    -fx-background-radius: 999;
+}
+
+.nexus-dialog-badge-info {
+    -fx-background-color: #25304A;
+    -fx-text-fill: #E6EDF8;
+}
+
+.nexus-dialog-badge-error {
+    -fx-background-color: #5A2B3A;
+    -fx-text-fill: #F0C7D1;
+}
+
+.nexus-dialog-badge-confirm {
+    -fx-background-color: #3A324E;
+    -fx-text-fill: #E2DBFF;
+}
+
+.nexus-dialog-button {
+    -fx-min-width: 88;
+    -fx-padding: 9 16;
+}
+
+.nexus-dialog-primary-button {
+    -fx-background-color: #31405F;
+    -fx-text-fill: #F5F7FB;
+}
+
+.nexus-dialog-primary-button:hover {
+    -fx-background-color: #3F537A;
+}
+
+.root-pane,
+.theme-dark,
+.theme-light {
+    -nexus-accent: #25304A;
+    -nexus-accent-hover: #31405F;
+}
+
+.theme-dark {
+    -nexus-bg: #1A1A2E;
+    -nexus-panel: #161625;
+    -nexus-surface: #202035;
+    -nexus-surface-soft: #20273B;
+    -nexus-border: #2F3550;
+    -nexus-text: #F5F7FB;
+    -nexus-muted: #9AA4BF;
+    -nexus-prompt: #69718A;
+}
+
+.theme-light {
+    -nexus-bg: #F5F7FB;
+    -nexus-panel: #FFFFFF;
+    -nexus-surface: #FFFFFF;
+    -nexus-surface-soft: #EEF2F8;
+    -nexus-border: #D7DFEC;
+    -nexus-text: #1C2435;
+    -nexus-muted: #5E6B84;
+    -nexus-prompt: #7C879B;
+}
+
+.root-pane {
+    -fx-background-color: -nexus-bg;
+}
+
+.root-pane .content-panel {
+    -fx-background-color: -nexus-bg;
+}
+
+.root-pane .pages-tree {
+    -fx-background-color: -nexus-panel;
+    -fx-border-color: -nexus-border;
+}
+
+.root-pane .pages-tree .tree-cell {
+    -fx-text-fill: -nexus-text;
+}
+
+.root-pane .pages-tree .tree-cell:selected {
+    -fx-background-color: -nexus-accent;
+}
+
+.root-pane .blocks-scroll,
+.root-pane .blocks-scroll > .viewport {
+    -fx-background-color: -nexus-bg;
+}
+
+.root-pane .blocks-container {
+    -fx-background-color: -nexus-bg;
+}
+
+.root-pane .bottom-toolbar {
+    -fx-background-color: -nexus-panel;
+    -fx-border-color: -nexus-border;
+}
+
+.root-pane .button {
+    -fx-background-color: -nexus-accent;
+    -fx-text-fill: white;
+}
+
+.root-pane .button:hover {
+    -fx-background-color: -nexus-accent-hover;
+}
+
+.root-pane .subtle-button {
+    -fx-background-color: -nexus-surface-soft;
+    -fx-text-fill: -nexus-text;
+}
+
+.root-pane .block-card {
+    -fx-background-color: -nexus-surface;
+    -fx-border-color: -nexus-border;
+}
+
+.root-pane .block-meta,
+.root-pane .save-status-label,
+.root-pane .map-info-label {
+    -fx-text-fill: -nexus-muted;
+}
+
+.root-pane .block-editor {
+    -fx-control-inner-background: -nexus-panel;
+    -fx-background-color: -nexus-panel;
+    -fx-text-fill: -nexus-text;
+    -fx-border-color: -nexus-border;
+}
+
+.root-pane .block-editor .content {
+    -fx-background-color: -nexus-panel;
+}
+
+.root-pane .page-title-field,
+.root-pane .search-field {
+    -fx-background-color: -nexus-panel;
+    -fx-text-fill: -nexus-text;
+    -fx-prompt-text-fill: -nexus-prompt;
+    -fx-border-color: -nexus-border;
+}
+
+.root-pane .page-title-field:focused,
+.root-pane .search-field:focused,
+.theme-dark .settings-combo:focused,
+.theme-light .settings-combo:focused {
+    -fx-border-color: -nexus-accent;
+}
+
+.root-pane .empty-state {
+    -fx-text-fill: -nexus-muted;
+}
+
+.root-pane .drag-handle {
+    -fx-background-color: -nexus-panel;
+    -fx-text-fill: -nexus-muted;
+}
+
+.root-pane .drag-handle:hover {
+    -fx-background-color: -nexus-accent;
+    -fx-text-fill: white;
+}
+
+.root-pane .block-card-drop-target {
+    -fx-border-color: -nexus-accent;
+}
+
+.theme-dark .map-pane,
+.theme-light .map-pane {
+    -fx-background-color: -nexus-panel;
+}
+
+.theme-light .map-title-label,
+.theme-light .map-node-label,
+.theme-light .nexus-dialog-title,
+.theme-light .nexus-dialog-message,
+.theme-light .settings-title,
+.theme-light .settings-label {
+    -fx-text-fill: -nexus-text;
+}
+
+.theme-light .map-info-label,
+.theme-light .save-status-label {
+    -fx-text-fill: -nexus-muted;
+}
+
+.theme-light .nexus-dialog-card,
+.theme-light .settings-card {
+    -fx-background-color: -nexus-panel;
+    -fx-border-color: -nexus-border;
+}
+
+.settings-dialog-root {
+    -fx-background-color: transparent;
+}
+
+.settings-card {
+    -fx-background-color: -nexus-panel;
+    -fx-background-radius: 18;
+    -fx-border-color: -nexus-border;
+    -fx-border-radius: 18;
+    -fx-border-width: 1;
+    -fx-padding: 20;
+    -fx-min-width: 400;
+    -fx-max-width: 440;
+}
+
+.settings-title {
+    -fx-text-fill: -nexus-text;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.settings-form {
+    -fx-padding: 4 0 4 0;
+}
+
+.settings-label {
+    -fx-text-fill: -nexus-text;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.settings-combo {
+    -fx-background-color: -nexus-surface-soft;
+    -fx-text-fill: -nexus-text;
+    -fx-border-color: -nexus-border;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 4 8;
+}
+
+.settings-combo .list-cell {
+    -fx-text-fill: -nexus-text;
+    -fx-background-color: transparent;
+}
+.theme-dark .settings-combo {
+    -fx-background-color: -nexus-surface-soft;
+    -fx-border-color: -nexus-border;
+}
+
+.theme-dark .settings-combo .list-cell {
+    -fx-text-fill: -nexus-text;
+    -fx-background-color: transparent;
+}
+
+.theme-dark .settings-combo .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.theme-dark .settings-combo .arrow {
+    -fx-background-color: -nexus-text;
+}
+
+.theme-dark .combo-box-popup .list-view {
+    -fx-background-color: -nexus-panel;
+    -fx-border-color: -nexus-border;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+}
+
+.theme-dark .combo-box-popup .list-cell {
+    -fx-background-color: -nexus-panel;
+    -fx-text-fill: -nexus-text;
+}
+
+.theme-dark .combo-box-popup .list-cell:hover {
+    -fx-background-color: -nexus-surface-soft;
+    -fx-text-fill: -nexus-text;
+}
+
+.theme-dark .combo-box-popup .list-cell:filled:selected,
+.theme-dark .combo-box-popup .list-cell:filled:focused:selected {
+    -fx-background-color: -nexus-accent;
+    -fx-text-fill: white;
+}
